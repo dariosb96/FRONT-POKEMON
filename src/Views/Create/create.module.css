@@ -1,0 +1,109 @@
+
+    .container {
+     
+      position: relative;
+    z-index: 1;
+    }
+    .contc {
+        background-color: #213b31;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px #4af293;
+        padding: 10px;
+        width: 25%;
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      }
+  
+    .buttonc {
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Fuente";
+        background-color:#eeff00;
+        color: #000000;
+      }
+      
+     
+      .ch1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-family: "F";
+        color: #ffffff;
+      }
+      
+      .formc {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .formc div {
+        margin-bottom: 10px;
+      }
+      
+      .formc label {
+        font-weight: bold;
+        color: #ffffff;
+        font-family: "Fuente";
+      }
+      
+      .formc input[type="text"],
+      .formc input[type="number"],
+      .formc select {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 2px solid  #4e9c41;
+        width: 200px;
+        margin: 0 auto;
+        background-color: #716c6c;
+        color: #ffffff;
+      }
+      
+      
+      .formc p {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+      
+      .px {
+        margin-bottom: 5px;
+        color: #ffffff;
+        font-family: "Fuente";
+        font-weight: bold;
+      }
+      
+      .dx {
+        background-color:#3f3e3e;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .types {
+        display: flex;
+        align-items: center;
+      }
+      
+      .types h4 {
+        margin-right: 10px;
+        color: #ffffff;
+        font-family: "Fuente";
+      }
+      
+    
+      
+      

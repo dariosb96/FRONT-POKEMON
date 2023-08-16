@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+  .container {
+   
+    position: relative;
+  z-index: 1;
+  }
+
+ .card{
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 10px;
+      
+ }
+  
+  @font-face {
+    font-family: 'Fuente';
+    src: url('../../Fuentes/RussoOne-Regular.ttf');
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #687c68;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px rgb(0, 255, 8);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  /* Estilos para cada opción de filtro */
+  .filters div {
+    display: flex;
+    flex-direction: column;
+   margin-left: 50px; 
+  }
+  
+  /* Estilos para los textos */
+  .filters span {
+    font-size: 15px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin-bottom: 5px;
+    font-family: 'Fuente';
+  }
+  
+  
+  
+  /* Estilos para los selects */
+  .filters select {
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid #bbff00;
+    border-radius: 4px;
+    background-color: #c6d7c7;
+    font-family: 'Fuente';
+    color: #000000;
+  }
+  
+  .filters select:hover {
+    background-color: #77797a;
+  }
+  
+  /* Estilos para las opciones de los selects */
+  .filters select option {
+    font-size: 15px;
+    color: #ac1675;
+    font-family: 'Fuente';
+    background-color: #77797a;
+  
+  }
+  
+  /* Estilos adicionales para resaltar las opciones seleccionadas */
+  .filters select option:checked {
+    background-color:#77797a;;
+    color: #333;
+  }
+  
+  .filters select option:hover {
+    background-color:#77797a;;
+    color: #333;
+  }
+  
+  .h1{
+    color:#77797a;;
+    font-family: "Mi Fuente";
+  }
